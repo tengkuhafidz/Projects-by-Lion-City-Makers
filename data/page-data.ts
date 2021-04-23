@@ -11,7 +11,7 @@ export interface PageData {
 	// SEO
 	seoTitle: string
 	seoDescription: string
-	bannerImageUrl: string
+	seoBannerUrl: string
 }
 
 export const getPageData = async () => {
@@ -32,5 +32,5 @@ export const transformPageData = (pageDataValue: any[]): PageData => ({
 	// SEO
 	seoTitle: pageDataValue[6],
 	seoDescription: pageDataValue[7],
-	bannerImageUrl: pageDataValue[8],
+	seoBannerUrl: pageDataValue[8],
 })
