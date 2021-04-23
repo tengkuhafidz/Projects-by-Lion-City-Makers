@@ -1,9 +1,9 @@
 {
-version: 3,
-sources: [
+"version": 3,
+"sources": [
 "iframeResizer.contentWindow.js"
 ],
-names: [
+"names": [
 "undefined",
 "window",
 "autoResize",
