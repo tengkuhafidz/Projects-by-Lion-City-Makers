@@ -30,7 +30,7 @@ export default function SEO() {
 			<meta name="twitter:image" content={seoBannerUrl} />
 
 			{/* IFRAME RESIZER Script */}
-			<script src="https://raw.githubusercontent.com/davidjbradshaw/iframe-resizer/master/js/iframeResizer.min.js"></script>
+			<script src="https://raw.githubusercontent.com/davidjbradshaw/iframe-resizer/master/js/iframeResizer.contentWindow.min.js"></script>
 		</Head>
 	)
 }
