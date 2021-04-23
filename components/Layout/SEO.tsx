@@ -28,6 +28,9 @@ export default function SEO() {
 			<meta name="twitter:title" content={fullSeoTitle} />
 			<meta name="twitter:description" content={seoDescription} />
 			<meta name="twitter:image" content={seoBannerUrl} />
+
+			{/* IFRAME RESIZER Script */}
+			<script src="https://raw.githubusercontent.com/davidjbradshaw/iframe-resizer/master/js/iframeResizer.min.js"></script>
 		</Head>
 	)
 }
