@@ -1,6 +1,6 @@
-# Lion City Makers Projects
+# Projects by Lion City Makers 
 
-Listing projects by makers from the Lion City - powered by [Websheets](https://websheets.co) engine.
+Projects by makers from Singapore. This site is powered by [Websheets](https://websheets.co) engine.
 
 **Tech Stack:**
 
