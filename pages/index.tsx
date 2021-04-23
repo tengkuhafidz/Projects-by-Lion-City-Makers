@@ -14,6 +14,8 @@ export default function Index({pageData, items}) {
 					<Home items={items} />
 				</Layout>
 			</div>
+			{/* IFRAME RESIZER Script */}
+			<script src="/js/iframeResizer.contentWindow.min.js"></script>
 		</PageDataProvider>
 	)
 }
