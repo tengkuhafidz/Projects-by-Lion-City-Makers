@@ -8,6 +8,10 @@ export interface PageData {
 	// GENERAL
 	searchbarPlaceholder: string
 	listingButtonText: string
+	// SEO
+	seoTitle: string
+	seoDescription: string
+	bannerImageUrl: string
 }
 
 export const getPageData = async () => {
@@ -25,4 +29,8 @@ export const transformPageData = (pageDataValue: any[]): PageData => ({
 	// GENERAL
 	searchbarPlaceholder: pageDataValue[3],
 	listingButtonText: pageDataValue[4],
+	// SEO
+	seoTitle: pageDataValue[6],
+	seoDescription: pageDataValue[7],
+	bannerImageUrl: pageDataValue[8],
 })
