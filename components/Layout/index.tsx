@@ -8,7 +8,7 @@ export default function Layout({children}) {
 				<main className="flex-grow">{children}</main>
 			</div>
 			{/* IFRAME RESIZER Script */}
-			<script src="/js/iframeResizer.contentWindow.min.js"></script>
+			<script src="/js/iframe-resizer/iframeResizer.contentWindow.min.js"></script>
 		</div>
 	)
 }
