@@ -15,7 +15,7 @@ export interface PageData {
 }
 
 export const getPageData = async () => {
-	const {data} = await fetchSheetsData('site', 'B1:B5', SheetsDimension.COLUMNS)
+	const {data} = await fetchSheetsData('site', 'B1:B9', SheetsDimension.COLUMNS)
 	return transformPageData(data.values[0])
 }
 
