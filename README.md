@@ -1,0 +1,27 @@
+# Lion City Makers Projects
+
+Listing projects by makers from the Lion City - powered by [Websheets](https://websheets.co) engine.
+
+**Tech Stack:**
+
+- Google Sheets
+- React
+- Next.js
+- Tailwindcss
+- Typescript
+
+## How to use
+
+1. Clone this repo
+2. Update the `README.md` and `package.json` to reflect your app
+3. install dependencies with `yarn install`
+
+## How to run
+
+Run the development server:
+
+```bash
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
