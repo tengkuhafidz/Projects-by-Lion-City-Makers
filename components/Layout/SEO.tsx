@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import {useContext} from 'react'
-import PageDataContext from '../../../utils/PageDataContext'
+import PageDataContext from '../../utils/PageDataContext'
 
 export default function SEO() {
 	const {seoTitle, seoDescription, seoBannerUrl} = useContext(PageDataContext)

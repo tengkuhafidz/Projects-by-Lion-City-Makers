@@ -1,6 +1,6 @@
 import {useContext} from 'react'
-import { FILTER_ALL } from '../../../utils/constants'
-import PageDataContext from '../../../utils/PageDataContext'
+import { FILTER_ALL } from '../../utils/constants'
+import PageDataContext from '../../utils/PageDataContext'
 
 interface Props {
 	searchTerm: string

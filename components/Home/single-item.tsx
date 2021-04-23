@@ -1,5 +1,5 @@
 import {useContext} from 'react'
-import PageDataContext from '../../../utils/PageDataContext'
+import PageDataContext from '../../utils/PageDataContext'
 import {Item} from '../../data/items'
 
 interface Props {

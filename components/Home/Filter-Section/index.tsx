@@ -1,6 +1,6 @@
 import {Dispatch, SetStateAction} from 'react'
 import {getDistinctTags} from '../../../utils/filter'
-import {Item} from '../../data/items'
+import {Item} from '../../../data/items'
 import FilterOptions from './filter-options'
 
 interface Props {

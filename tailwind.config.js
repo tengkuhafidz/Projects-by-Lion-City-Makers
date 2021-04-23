@@ -1,7 +1,7 @@
 module.exports = {
 	purge: [
 		'./pages/**/*.tsx',
-		'./components/**/*.tsx',
+		'./main/**/*.tsx',
 		'./styles/**/*.css',
 		'./utils/**/*.ts',
 	],

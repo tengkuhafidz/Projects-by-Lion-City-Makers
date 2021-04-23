@@ -1,4 +1,4 @@
-import {Item} from '../main/data/items'
+import {Item} from '../data/items'
 import {FILTER_ALL} from './constants'
 
 export const getDistinctTags = (items: Item[]) => {

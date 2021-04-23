@@ -1,9 +1,9 @@
 import {GetStaticProps} from 'next'
 import React from 'react'
-import Home from '../main/components/Home'
-import Layout from '../main/components/Layout'
-import { getItems } from '../main/data/items'
-import { getPageData } from '../main/data/page-data'
+import Home from '../components/Home'
+import Layout from '../components/Layout'
+import { getItems } from '../data/items'
+import { getPageData } from '../data/page-data'
 import {PageDataProvider} from '../utils/PageDataContext'
 
 export default function Index({pageData, items}) {

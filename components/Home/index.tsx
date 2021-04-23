@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import {FILTER_ALL} from '../../../utils/constants'
-import {filterItemsByTag} from '../../../utils/filter'
-import {getFuseSearchResult} from '../../../utils/search'
+import {FILTER_ALL} from '../../utils/constants'
+import {filterItemsByTag} from '../../utils/filter'
+import {getFuseSearchResult} from '../../utils/search'
 import {Item} from '../../data/items'
-import FilterSection from '../Filter-Section'
+import FilterSection from './Filter-Section'
 import ItemsList from './items-list'
 import Searchbar from './searchbar'
 

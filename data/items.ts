@@ -1,6 +1,6 @@
-import {fetchSheetsData} from '../../services/sheet'
-import {SheetsDimension} from '../../utils/constants'
-import {stringToArray, stringToBoolean} from '../../utils/transform'
+import {fetchSheetsData} from '../services/sheet'
+import {SheetsDimension} from '../utils/constants'
+import {stringToArray, stringToBoolean} from '../utils/transform'
 
 export interface Item {
 	id: number

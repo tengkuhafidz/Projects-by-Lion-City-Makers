@@ -1,6 +1,6 @@
-import {fetchSheetsData} from '../../services/sheet'
-import {SheetsDimension} from '../../utils/constants'
-import {stringToBoolean} from '../../utils/transform'
+import {fetchSheetsData} from '../services/sheet'
+import {SheetsDimension} from '../utils/constants'
+import {stringToBoolean} from '../utils/transform'
 
 export interface PageData {
 	// THEME
