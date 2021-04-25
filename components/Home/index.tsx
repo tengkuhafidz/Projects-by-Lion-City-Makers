@@ -22,8 +22,8 @@ export default function Home({items}: Props) {
 	const filteredItems = filterItemsByTag(searchResults, selectedTag)
 
 	return (
-		<div className="py-2">
-			<div className="text-center max-w-xl mx-auto py-2">
+		<div>
+			<div className="text-center max-w-xl mx-auto">
 				<FilterSection
 					items={items}
 					selectedTag={selectedTag}
