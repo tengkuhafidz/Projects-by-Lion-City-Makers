@@ -12,7 +12,7 @@ export default function SingleItem({item}: Props) {
 		id,
 		profileImageUrl,
 		name,
-		role,
+		profileUrl,
 		projectName,
 		projectDescription,
 		projectUrl,
@@ -25,13 +25,17 @@ export default function SingleItem({item}: Props) {
 		>
 			<div className="md:col-span-2 mx-auto">
 				<p className="hidden md:inline-block">🇸🇬</p>
-				<img
-					src={profileImageUrl}
-					className="h-24 md:h-12 lg:h-16 rounded-full inline mx-4"
-				/>
+				<a href={projectUrl} target="_blank">
+					<img
+						src={profileImageUrl}
+						className="h-24 md:h-12 lg:h-16 rounded-full inline mx-4 transform hover:scale-125"
+					/>
+				</a>
 			</div>
 			<div className="md:col-span-2 text-lg md:text-sm lg:text-lg md:flex md:items-center font-bold mt-1  md:mt-0">
-				{name}
+				<a href={projectUrl} target="_blank" className="hover:underline">
+					{name}
+				</a>
 			</div>
 
 			<div className="md:col-span-2 text-lg md:text-sm lg:text-lg md:flex md:items-center font-light mt-1 md:mt-0">

@@ -7,6 +7,7 @@ export interface Item {
 	name: string
 	role: string
 	profileImageUrl: string
+	profileUrl: string
 	projectName: string
 	projectDescription: string
 	projectUrl: string
@@ -15,7 +16,7 @@ export interface Item {
 }
 
 export const getItems = async () => {
-	const {data} = await fetchSheetsData('items', 'A2:H', SheetsDimension.ROWS)
+	const {data} = await fetchSheetsData('items', 'A2:I', SheetsDimension.ROWS)
 	const allItems = transformItemsData(data.values)
 	return allItems.filter(item => item.isActive)
 }
@@ -30,10 +31,11 @@ export const transformItemsData = (itemValues: any[]): Item[] => {
 		name: itemValue[0],
 		role: itemValue[1],
 		profileImageUrl: itemValue[2],
-		projectName: itemValue[3],
-		projectDescription: itemValue[4],
-		projectUrl: itemValue[5],
-		tags: stringToArray(itemValue[6]),
-		isActive: stringToBoolean(itemValue[7]),
+		profileUrl: itemValue[3],
+		projectName: itemValue[4],
+		projectDescription: itemValue[5],
+		projectUrl: itemValue[6],
+		tags: stringToArray(itemValue[7]),
+		isActive: stringToBoolean(itemValue[8]),
 	}))
 }
