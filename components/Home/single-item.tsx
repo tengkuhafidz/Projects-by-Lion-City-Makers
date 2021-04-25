@@ -20,8 +20,7 @@ export default function SingleItem({item}: Props) {
 
 	return (
 		<div
-			className={`text-center px-20 md:px-2 py-4 md:py-2 md:grid md:grid-cols-12  rounded font-light ${
-				id % 2 === 1 ? 'bg-gray-100 dark:bg-gray-900' : ''
+			className={`text-center px-20 md:px-2 py-4 md:py-2 md:grid md:grid-cols-12  rounded font-light hover:bg-gray-100 dark:hover:bg-gray-900 
 			}`}
 		>
 			<div className="md:col-span-2 mx-auto">
