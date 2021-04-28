@@ -25,7 +25,7 @@ export default function SingleItem({item}: Props) {
 		>
 			<div className="md:col-span-2 mx-auto">
 				<p className="hidden md:inline-block">🇸🇬</p>
-				<a href={projectUrl} target="_blank">
+				<a href={profileUrl} target="_blank">
 					<img
 						src={profileImageUrl}
 						className="h-24 md:h-12 lg:h-16 rounded-full inline mx-4 transform hover:scale-125"
@@ -33,7 +33,7 @@ export default function SingleItem({item}: Props) {
 				</a>
 			</div>
 			<div className="md:col-span-2 text-lg md:text-sm lg:text-lg md:flex md:items-center font-bold mt-1  md:mt-0">
-				<a href={projectUrl} target="_blank" className="hover:underline">
+				<a href={profileUrl} target="_blank" className="hover:underline">
 					{name}
 				</a>
 			</div>
@@ -41,7 +41,7 @@ export default function SingleItem({item}: Props) {
 			<div className="md:col-span-2 text-lg md:text-sm lg:text-lg md:flex md:items-center font-light mt-1 md:mt-0">
 				{projectName}
 			</div>
-			<div className="col-span-5 flex items-center text-sm lg:text-base mt-1 md:mt-0">
+			<div className="col-span-5 md:flex md:items-center text-sm lg:text-base mt-1 md:mt-0">
 				{projectDescription}
 			</div>
 			<div className="flex col-span-1 md:flex md:items-center">
